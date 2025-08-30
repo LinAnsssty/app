@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'DM Sans Regular';
+    src: url("/fonts/DMSans_18pt-Regular.ttf");
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #191919;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 0px;
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    gap: 40px;
+    padding: 20px;
+}
+
+.logo{
+    margin: 17px 0px 17px 50px;
+}
+
+.navigationLinks {
+
+    font-family: 'DM Sans Regular';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #FFFF;
+    transition: color 0.3s ease;
+
+}
+
+.navigationLinks:hover{
+    color: #118DA8;
+}
+
+.pasteboard {
+    display: flex;
+    padding: 40px 50px 0px 50px;
+    align-items: center;
+    gap: 60px;
+}
+
+main {
+    margin: 0px 20px 0px 20px;
+}
+
+#titleSection {
+
+    font-family: 'DM Sans Regular';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFF;
+
+}
+
+.pasteboardInfo {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+}
+
+.platformLinks {
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'DM Sans Regular';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFF;
+    padding-left: 20px;
+
+}
