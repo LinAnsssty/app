@@ -51,6 +51,12 @@ h3 {
 
 }
 
+p {
+    font-family: 'DM Sans Regular';
+    color: #FFFF;
+
+}
+
 .navigationBar {
     display: flex;
     justify-content: center;
@@ -128,7 +134,7 @@ main {
 .latestEpisodes {
     
     
-    padding: 100px 50px 40px 50px;
+    padding: 100px 50px 160px 50px;
     
 }
 
@@ -140,10 +146,8 @@ main {
 
 }
 
-.allEp {
+.buttonEp {
 
-    width: 178px;
-    height: 51px;
     opacity: 1;
     border-radius: 6px;
     background-color: #118DA8;
@@ -158,9 +162,16 @@ main {
 
 }
 
-.allEp:active{
+.buttonEp:active{
     background-color: #0b667a;
     
+}
+
+.buttonViewAllSize {
+
+    width: 178px;
+    height: 51px;
+
 }
 
 .episodes {
@@ -220,5 +231,132 @@ main {
 
     display: flex;
     flex-direction: column;
+
+}
+
+.describePosition {
+    margin: 30px 20px 25px 0px;
+}
+
+.describe {
+
+    font-family: 'DM Sans Regular';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    color: #FFFFFFB2;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.buttonViewDetailsSize {
+
+    width: 208;
+    height: 51;
+    opacity: 1;
+    padding: 12px 17.5px;
+
+}
+
+.meetingHost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 100px 50px;
+    margin: 0px 20px;
+    margin: 0px;
+}
+
+.aboutHost {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.descriptionHost {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 590px;
+}
+
+.circleBtn {
+
+    width: 112px;
+    height: 112px;
+    opacity: 1;
+    border-radius: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.icon {
+    width: 71px;
+    height: 38px;
+    opacity: 1;
+
+}
+
+.sign {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #118DA8;
+    margin: 0px;
+}
+
+#nameAutor {
+
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #FFFF;
+    margin-top: 20px;
+
+}
+
+.history {
+    margin: 30px 0px;
+}
+
+.subForUpd {
+
+    padding: 100px 50px;
+    align-items: center;
+
+}
+
+.subForms {
+
+    background-color: #000000;
+    padding: 60px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+#mainSign {
+
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    margin: 0px;
+
 
 }
