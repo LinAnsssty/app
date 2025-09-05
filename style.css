@@ -21,7 +21,6 @@ header {
 h1{
     font-family: 'DM Sans Regular';
     font-weight: 400;
-    font-style: Regular;
     font-size: 70px;
     line-height: 88px;
     letter-spacing: 3.2px;
@@ -31,7 +30,6 @@ h1{
 h2 {
     font-family: 'DM Sans Regular';
     font-weight: 400;
-    font-style: Regular;
     font-size: 64px;
     line-height: 79.2px;
     letter-spacing: 2.88px;
@@ -73,7 +71,6 @@ p {
 
     font-family: 'DM Sans Regular';
     font-weight: 400;
-    font-style: Regular;
     font-size: 17px;
     line-height: 27px;
     letter-spacing: 0%;
@@ -357,6 +354,61 @@ main {
     line-height: 79.2px;
     letter-spacing: 2.88px;
     margin: 0px;
+
+}
+
+.subForms {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 60px 60px 75px 60px;
+}
+
+.mailBox {
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#fieldForm{
+
+    width: 522px;
+    height: 82px;
+    opacity: 1;
+    top: 0.13px;
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: #191919;
+    border: 1px solid #191919;
+
+    font-family: 'DM Sans Regular';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    color: #FFFF;
+
+    padding: 0px 20px;
+
+
+}
+
+.sumbitBtn {
+    width: 87px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    opacity: 1; 
+    align-items: center;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+
 
 
 }
