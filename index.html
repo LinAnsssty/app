@@ -4,8 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+
+    <header>
+        <img class="logo" src= "/images/Logo.svg" alt="Castaway">
+        <nav class="navigationBar">
+
+            <a class="navigationLinks" href="#">Home</a>
+            <a class="navigationLinks" href="#">Episodes </a>
+            <a class="navigationLinks" href="#">About</a>
+            <a class="navigationLinks" href="#">Contact</a>
+
+        </nav>
+    </header>
     
+    <main>
+        <section class="pasteboard">
+            <img id="mainImg" src="/images/imageNegr.png" alt="autor">
+            <div class="pasteboardInfo">
+                <pre id="titleSection"> <h1>Take your<br>podcast to the<br>next <b>level</b></h1></pre>
+                <div class="platforms">
+                    <p>Listen on</p>
+                    <div class="platformLinks">
+                        <img src="/images/platfroms/spotify.svg" alt="spotify">
+                        <img src="/images/platfroms/c.svg" alt="c">
+                        <img src="/images/platfroms/icloud.svg" alt="icloud">
+                        <img src="/images/platfroms/chel.svg" alt="chel">
+                        <img src="/images/platfroms/radio.svg" alt="radio">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="latestEpisodes">
+            <div class="sectionHeader">
+                <h2>Latest episodes</h2>
+                <button class="buttonEp buttonViewAllSize">View all episodes</button>
+            </div>
+            <div class="episodes">
+                <div class="episode">
+                    <img src="/images/ImgEp/ep3.svg" alt="ep3">
+                    <div class="discription">
+                        <div class="epInfo">
+                        <a id="hashtags" href="#">Gear</a>
+                        <p class="epNumber">Episode 3</p>
+                         <h3 class="epName">Should you get<br>outboard audio gear?</h3>
+                         <div class="describePosition">
+                            <p class="describe">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+                        </div>
+                         <button class="buttonEp buttonViewDetailsSize">View Episode Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="episode">
+                    <img src="/images/ImgEp/ep2.svg" alt="ep2">
+                    <div class="discription">
+                        <div class="epInfo">
+                          <a id="hashtags" href="#">Tips & Tricks</a>
+                         <p class="epNumber">Episode 2</p>
+                        <h3>Mic tricks to take<br>you to the next level</h3>
+                        <div class="describePosition">
+                            <p class="describe">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+                        </div>
+                         <button class="buttonEp buttonViewDetailsSize">View Episode Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="episode">
+                    <img src="/images/ImgEp/ep1.svg" alt="ep1">
+                    <div class="discription">
+                        <div class="epInfo">
+                          <a id="hashtags" href="#">Gear</a>
+                         <p class="epNumber">Episode 1</p>
+                        <h3>The best microphone<br>under $200</h3>
+                        <div class="describePosition">
+                            <p class="describe">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+                        </div>
+                         <button class="buttonEp buttonViewDetailsSize">View Episode Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </section>
+
+        <section class="meetingHost">
+            <div class="aboutHost">
+                <div class="descriptionHost">
+                    <button class="buttonEp circleBtn">
+                        <img src="/images/IMAGE.png" alt="go meetup" class="icon">
+                    </button>
+                    <p class="sign">Meet your host</p>
+                    <p id="nameAutor">Jacob Paulaner</p>
+                    <div class="history">
+                        <p class="describe">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                    </div>
+                    <div class="duty">
+                        <p class="describe">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+                    </div>
+                </div>
+            </div>
+
+            <img src="/images/negrAutor.svg" alt="negr">
+        </section>
+
+        <section class="subForUpd">
+            <div class="subForms">
+                <div class="slogan">
+                    <p class="sign">Email Newsletter</p>
+                    <p id="mainSign">Subscribe<br>for updates</p>
+                </div>
+                <form class="mailBox">
+                    <input type="text" id="fieldForm" name="name" placeholder="Name">
+
+                    <input type="email" id="fieldForm" name="email" placeholder="Email">
+
+                    <button class="buttonEp sumbitBtn" type="submit">Sumbit</button>
+                </form>
+            </div>
+        </section>
+        <section class="comments">
+            
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
 </body>
 </html>
