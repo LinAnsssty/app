@@ -409,6 +409,53 @@ main {
     line-height: 28.8px;
     letter-spacing: 0%;
 
+}
 
+.comments{
+    padding: 100px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    align-items: stretch;
+
+     
+}
+
+.commentWrapper {
+    background-color: #000000;
+    border-radius: 32px;
+    padding: 50px;
+    flex: 1 1 250px;
+    max-width: 420px;
+    max-height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+.comment {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    letter-spacing: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin: 0px;
+
+}
+
+#autorComment {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    color: #a69f9fb2;
+    margin: 0px;
+;
 
 }
